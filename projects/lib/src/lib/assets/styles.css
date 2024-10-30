@@ -10,6 +10,7 @@
   --button-white: #ffffff;
 
   --background: #f1f5f9;
+  --fullscreen: #ffffff;
   --card: #ffffff;
   --foreground: #374151;
   --border-color: #dddddd;
@@ -23,6 +24,8 @@
 
 body.dark {
   --background: #303c49;
+  --fullscreen: #15202b;
+
   --card: #15202b;
   --border-color: #374151;
   --foreground: #ffffffcc;
@@ -103,7 +106,7 @@ body.dark {
 }
 
 body {
-  background-color: var(--dark-bg);
+  background-color: var(--fullscreen);
   color: var(--foreground) !important;
   border-color: var(--border-color) !important;
   height: 100vh;
@@ -181,7 +184,7 @@ td {
   position: fixed;
   top: 0;
   left: 0;
-  background: var(--dark-bg);
+  background: var(--fullscreen);
   color: var(--dark-foreground);
   display: flex;
   flex-direction: column;
@@ -351,7 +354,7 @@ td {
 }
 
 .layout_topbar {
-  background: var(--dark-bg);
+  background: var(--fullscreen);
   color: var(--dark-foreground);
   width: 100%;
   display: flex;
