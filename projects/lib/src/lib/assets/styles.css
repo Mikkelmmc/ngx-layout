@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --dark-bg: #15202b;
-  --dark-surface: #303c49;
-  --dark-foreground: #ffffffcc;
+  --dark-bg: #ffffffcc;
+  --dark-surface: #f1f5f9;
+  --dark-foreground: #15202b;
   --white-color: #ffffffcc;
   --button-white: #ffffff;
-
   --background: #f1f5f9;
   --fullscreen: #ffffff;
   --card: #ffffff;
@@ -18,14 +17,15 @@
   --secondary: #e40045;
   --surface: #f1f5f9;
   --surface-text: #303c49;
-
   --scrollbar-color: rgba(0, 0, 0, 0.15);
 }
 
 body.dark {
   --background: #303c49;
   --fullscreen: #15202b;
-
+  --dark-bg: #15202b;
+  --dark-surface: #303c49;
+  --dark-foreground: #ffffffcc;
   --card: #15202b;
   --border-color: #374151;
   --foreground: #ffffffcc;
